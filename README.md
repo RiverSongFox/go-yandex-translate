@@ -2,7 +2,7 @@
 [**Yandex Translate**](http://api.yandex.com/translate/) is an online API for machine translation service. 
 It offers text translation features for over 30 languages.
 
-:warning: **Warning:** The asset is currently under development and may be unsuitable for production use.
+**Warning:** The asset is currently under development and may be unsuitable for production use.
 
 ### Installation
   - Use `go get github.com/yaruson/go-yandex-translate` to download the library
@@ -10,12 +10,8 @@ It offers text translation features for over 30 languages.
 
 ### Usage
 
-At the moment this library contains a single method `yandex.Translate()` to perform translation.
-
 > **NOTE:**
-> You have to get an [API Key](http://api.yandex.com/key/form.xml?service=trnsl) for Yandex Translate service, if you don't have one yet.
-
-#### Basic Example
+> You have to request an [API Key](http://api.yandex.com/key/form.xml?service=trnsl) for Yandex Translate service, if you don't have one yet.
 
 ```go
 package main
