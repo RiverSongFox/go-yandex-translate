@@ -1,4 +1,4 @@
-package main
+package yandex
 import (
   "os"
   "strings"
